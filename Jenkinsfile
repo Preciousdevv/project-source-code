@@ -16,7 +16,7 @@ pipeline{
             steps{
                 script {
                     withCredentials([string(credentialsId: 'tech365token', variable: 'tech365token')]) {
-                        sh 'mvn clean verify sonar:sonar -Dsonar.token=$tech365token -Dsonar.organization=tech3652 -Dsonar.projectKey=tech3652 -Dsonar.host.url=https://sonarcloud.io'
+                        sh 'mvn clean verify sonar:sonar -Dsonar.token=$tech365token -Dsonar.organization=tech3653 -Dsonar.projectKey=tech3653 -Dsonar.host.url=https://sonarcloud.io'
                     }
                 }
             }
