@@ -41,3 +41,26 @@ The project demonstrates how to build, containerize, and deploy a Java-based app
   ```bash
   docker build -t myapp .
   docker run -p 8080:8080 myapp
+
+Kubernetes deployment:
+  kubectl apply -f deployment.yaml
+
+📂 Project Structure
+bash
+Copy
+Edit
+.
+├── src/               # Java source code
+├── target/            # Compiled classes
+├── Dockerfile         # Docker build configuration
+├── Jenkinsfile        # CI/CD pipeline
+├── deployment.yaml    # Kubernetes manifest
+├── pom.xml            # Maven configuration
+└── README.md          # Project documentation
+
+
+📬 Contact
+Developed by Precious Dev
+For inquiries: olayinkaprecious2001@gmail.com
+
+
